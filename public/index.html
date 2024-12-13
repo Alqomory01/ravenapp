@@ -12,8 +12,8 @@
     <div>
         <img class="size-9" src="logo.jpg" alt="">
     </div>
-    <nav>
-        <ul id="tradingPairsList" class="flex justify-between  pr-5">
+    <nav class="sm:hidden md:block lg:block">
+        <ul id="tradingPairsList" class="hidden md:flex justify-between  pr-5">
             <li class="pr-2"><a href>Dashboard</a></li>
             <li class="pr-2"><a href>Market</a></li>
             <li class="pr-2"><a href>Wallet</a></li>
@@ -22,7 +22,7 @@
     </nav>
     <div class="search">
         <input id="searchBar" class="w-20 bg-gray-300 p-2 translate-x-2 border rounded-l-lg" type="text" placeholder="search ...">
-        <button class="bg-gray-800 border rounded-r-lg text-white p-2" type="submit">search</button>
+        <button class="bg-gray-800 border rounded-r-lg text-white p-2 sm:hidden md:hidden lg:block" type="submit">search</button>
 
     </div>
    </header>
