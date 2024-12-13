@@ -582,6 +582,10 @@ video {
   }
 }
 
+.visible {
+  visibility: visible;
+}
+
 .col-span-3 {
   grid-column: span 3 / span 3;
 }
@@ -928,6 +932,10 @@ video {
 @media (min-width: 400px) {
   .sm\:col-span-3 {
     grid-column: span 3 / span 3;
+  }
+
+  .sm\:col-span-1 {
+    grid-column: span 1 / span 1;
   }
 
   .sm\:hidden {

@@ -8,7 +8,7 @@
 </head>
 <body class="bg-black text-white">
   <base href="/">
-   <header class=" bg-gray-800 flex items-center justify-between p-3">
+   <header class="w:full bg-gray-800 flex items-center justify-between p-3">
     <div>
         <img class="size-9" src="logo.jpg" alt="">
     </div>
@@ -37,7 +37,7 @@
 
     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-8 lg:grid-cols-12 gap-4 ">
      
-      <aside class="sm:col-span-3  lg:col-span-3 bg-white shadow-md p-4 text-center rounded">
+      <aside class="sm:col-span-1 visible  lg:col-span-3 bg-white shadow-md p-4 text-center rounded">
         <h2 class="text-lg text-black font-semibold mb-4">Trading Pairs</h2>
         <ul class="space-y-2  text-black ">
           <li class="trading-pair-item p-2 border rounded  pr-4 hover:bg-gray-100 cursor-pointer">BTC/USD</li>
@@ -51,7 +51,7 @@
       <main class="sm:col-span-3 lg:col-span-6 bg-white shadow-md p-4 rounded">
         <h2 class="text-lg text-center text-black font-semibold mb-4">Candlestick Chart</h2>
         <div class="h-64 flex items-center justify-center bg-gray-200 rounded">
-          <canvas  id="myChart" class="text-gray-500 w-96 h-72"></canvas>
+          <canvas  id="myChart" class="text-center  items-center text-gray-500 w-96 h-72"></canvas>
           
         </div>
         <div class="time-intervals flex gap-2 justify-center text-black mt-3 mb-4">
@@ -112,7 +112,7 @@
       </section>
     </div>
 
-    <section class="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-8">
+    <section class="grid sm:grid-cols-2 gap-4 mt-8">
         <!-- Buy Order Form -->
         <div class="bg-white shadow-md p-4 rounded">
           <h2 class="text-lg font-semibold mb-4 text-green-600">Place Buy Order</h2>
